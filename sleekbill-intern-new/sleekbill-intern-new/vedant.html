@@ -42,26 +42,26 @@
     <meta name="twitter:image:alt" content="Sleek Bill">
 
     <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [{
-            "@type": "Question",
-            "name": "What are the conditions for claiming ITC?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "To claim ITC, a business must have a valid tax invoice, the supplier must have filed GST returns, and the purchase should be used for taxable supplies."
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "What are the conditions for claiming ITC?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "To claim ITC, a business must have a valid tax invoice, the supplier must have filed GST returns, and the purchase should be used for taxable supplies."
+                }
+              },{
+                "@type": "Question",
+                "name": "What is Input Tax Credit (ITC)?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Input Tax Credit (ITC) is a mechanism under GST that allows businesses to claim credit for the tax paid on purchases used for business purposes."
+                }
+              }]
             }
-          },{
-            "@type": "Question",
-            "name": "What is Input Tax Credit (ITC)?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Input Tax Credit (ITC) is a mechanism under GST that allows businesses to claim credit for the tax paid on purchases used for business purposes."
-            }
-          }]
-        }
-        </script>
+            </script>
 
 
 
@@ -1214,12 +1214,12 @@
 
         /* Heading Styling */
         /* .ewb-guide-heading {
-    color: #000000; /* Black color for heading */
+        color: #000000; /* Black color for heading */
         /* font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-}  */
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }  */
 
         .ewb-guide-intro {
             text-align: center;
@@ -1393,9 +1393,9 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
 
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9879242699703600"
@@ -1404,6 +1404,7 @@
 </head>
 
 <body>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4WV5KF" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -1413,8 +1414,6 @@
         <link href="/css/bootstrap.min.css" rel="stylesheet">
         <link href="/css/custom.css" rel="stylesheet">
         <link href="/css/popup1.css" rel="stylesheet">
-
-
     </noscript>
 
     <div class="mobile-logo">
@@ -1455,6 +1454,7 @@
             </div>
         </div>
     </div>
+
     <style>
         .gst-changes-header img {
             width: 800px;
@@ -1464,13 +1464,11 @@
         }
     </style>
 
-    <!-- Header Start-->
-
     <header id="header" style="padding: 60px 50px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1> Input Tax Credit (ITC) in Indian <br /> GST Taxation </h1>
+                    <h1>An Invoicing software for <br>small business</h1>
                     <p>A Complete Guide for understand input credit tax. </p>
 
                     <br /><br />
@@ -1504,7 +1502,6 @@
         </div>
     </header>
 
-    <!-- Header End-->
     <div class="seen-in-section">
         <div class="container">
             <div class="row col12">
@@ -1542,23 +1539,1196 @@
         </div>
     </div>
 
+    <!-- popup code start -->
+    <div class="smartpopup-overlay" id="exitPopup">
+        <div class="smartpopup-content">
+            <button class="close-button" id="closePopup"> <strong> &times; </strong></button>
+            <a href="https://app.sleekbill.in/signup" target="_blank">
+                <img src="https://sleekbill.in/images/15-days-free-trial-Pop-up_signup.png" alt="Special Offer">
+            </a>
+        </div>
+    </div>
+
+    <div class="content">
+        <a id="scrollButton" class="center-button" href="https://www.billingsoftware.in/start-download.html"
+            target="_blank" onclick="sendAnalyticsEvent();">
+            <h4>Download Sleek Bill</h4>
+        </a>
+
+        <script>
+            // Function to send the analytics event
+            function sendAnalyticsEvent() {
+                if (typeof ga === 'function') {
+                    ga('send', 'event', {
+                        eventCategory: 'header',
+                        eventAction: 'click',
+                        eventLabel: 'login'
+                    });
+                } else {
+                    console.warn('Google Analytics is not initialized.');
+                }
+            }
+        </script>
 
 
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Tawk.to Script -->
+        <script>
+            // Function to open the popup
+            function openPopup() {
+                document.getElementById('popup').style.display = 'flex';
+            }
+
+            // Function to close the popup
+            function closePopup() {
+                document.getElementById('popup').style.display = 'none';
+            }
+            function openPopup1() {
+                document.getElementById('popup1').style.display = 'flex';
+            }
+
+            function closePopup1() {
+                document.getElementById('popup1').style.display = 'none';
+            }
+        </script>
+
+        <script>
+            // Function to show the button after the header is scrolled out of view
+            window.addEventListener('scroll', function () {
+                const headerHeight = document.getElementById('header').offsetHeight;
+                const scrollPosition = window.scrollY;
+
+                // Show the button if the user has scrolled past the header
+                if (scrollPosition > headerHeight) {
+                    document.getElementById('scrollButton').style.display = 'inline-block';
+                } else {
+                    document.getElementById('scrollButton').style.display = 'none';
+                }
+            });
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const popup = document.getElementById('exitPopup');
+                const closePopup = document.getElementById('closePopup');
+
+                let hasShownPopup = false;
+
+                // Detect mouse movement
+                document.addEventListener('mousemove', (event) => {
+                    if (event.clientY < 50 && !hasShownPopup) {
+                        popup.style.display = 'flex';
+                        hasShownPopup = true;
+                    }
+                });
+
+                // Close the popup
+                closePopup.addEventListener('click', () => {
+                    popup.style.display = 'none';
+                });
+            });
+        </script>
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/67729435af5bfec1dbe48f5f/1igbp5so1';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+        <div class="sticky-note" style="margin-top: -30px;">
+            <a onclick="openPopup()"> <img src="https://sleekbill.in/images/call-icon.png" /> &nbsp;Call Back
+                Request</a>
+        </div>
+        <div class="popup-overlay" id="popup">
+            <div class="popup-content">
+                <button class="close-button" onclick="closePopup()">Close</button>
+                <!-- Embedded form using iframe -->
+                <iframe src="https://form.123formbuilder.com/3016183/contact-lead-form" class="embedded-form"
+                    title="Embedded Form">
+                </iframe>
+            </div>
+        </div>
+
+
+
+        <div class="popup-overlay1" id="popup1">
+            <div class="popup-content1">
+                <button class="close-button" onclick="closePopup1()">Close</button>
+                <!-- Embedded form using iframe -->
+                <iframe src="https://form.123formbuilder.com/6786665/sleekbill-in-book-demo" class="embedded-form1"
+                    title="Embedded Form1">
+                </iframe>
+            </div>
+        </div>
+        <!-- popup code end -->
+        <style>
+            /* General hover styles */
+            .seen-in-section li:hover {
+                background-color: white;
+            }
+
+            .seen-in-section li:hover a {
+                color: #23527c !important;
+                text-decoration: none;
+            }
+
+            /* Disable hover for specific elements */
+            .seen-in-section li.small-text:hover,
+            .seen-in-section li.no-hover:hover {
+                background-color: transparent;
+            }
+
+            .seen-in-section li.small-text:hover a,
+            .seen-in-section li.no-hover:hover a {
+                color: inherit !important;
+            }
+
+            .faq-section {
+                background-color: #ffffff;
+                padding: 30px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .faq-heading {
+                color: #000000;
+                font-size: 2.5em;
+                padding: 20px;
+                border-radius: 10px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .faq-item {
+                background-color: hsl(0, 2%, 76%);
+                border-radius: 5px;
+                margin-bottom: 15px;
+                overflow: hidden;
+                box-shadow: -5px 0 0px rgba(0, 0, 0, 0.5), 5px 0 0px rgba(0, 0, 0, 0.5);
+
+            }
+
+            .faq-toggle {
+                background-color: hwb(0 98% 1%);
+                color: #000000;
+                border: 2px, solid, #000000;
+                border-radius: 5px;
+                padding: 15px;
+                width: 100%;
+                text-align: left;
+                font-size: 18px;
+                cursor: pointer;
+                outline: none;
+                transition: background-color 0.3s;
+                position: relative;
+            }
+
+            .faq-toggle:hover {
+                background-color: white;
+                color: #000000;
+            }
+
+            .faq-arrow {
+                font-size: 1.2em;
+                position: absolute;
+                right: 15px;
+                top: 50%;
+                transform: translateY(-50%);
+                transition: transform 0.3s;
+            }
+
+            .faq-content {
+                display: none;
+                padding: 15px;
+                background-color: #f9f9f9;
+                border-top: 1px solid #ddd;
+            }
+
+            .faq-content p {
+                margin: 0;
+                color: #333;
+                font-size: 16px;
+            }
+
+            .faq-item.active .faq-content {
+                display: block;
+            }
+
+            .faq-item.active .faq-arrow {
+                transform: rotate(180deg);
+            }
+        </style>
+
+        <section class="white">
+            <div class="container">
+                <div class="row" style="margin-top: -80px;">
+                    <div class="col-md-8 text-left our-vision gst-changes">
+
+                        <p>In a fast commercialized world, today, wise financial management is not a luxury anymore;
+                            rather, it's a key to stable and secured living. A right invoicing software for a small
+                            business can mean a lot for all-be it a freelancer, retail shop owner, or possibly a startup
+                            founder. Sleek Bill lets you create a professional invoice with instant payments,
+                            organization, and a saving of hours of manual work using the simplest and most easy software
+                            application accessible in the market.</p>
+                        <br>
+                        <p>Let’s examine how the ideal billing software can streamline the way you operate your company.
+                        </p>
+                        <h2><span class="medium-text">Why an Invoicing Software is required for Small Businesses?</span>
+                        </h2><br />
+                        <p>Manually preparing invoices is not only time-consuming but also prone to human error.
+                            Invoicing software for small business helps you:</p>
+
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Create clean, branded invoice templates quickly</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong> end invoices via email or PDF instantly</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Receive online payments through UPI, QR codes, or even cash
+
+                                    </strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Stay organized by tracking payment statuses</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Save time and reduce paperwork</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Look professional, enhancing client trust</strong></p>
+                            </li>
+
+                        </ul>
+
+                        <h2><span class="medium-text">⚡ Easy Invoicing, Instant Payments</span>
+                        </h2><br />
+                        <h3><span class="medium-text">1. Create</span></h3></br>
+                        </br>
+
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Choose a professional invoice template</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Add your business logo, terms, and conditions</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Customize fields as per your industry </strong> </p>
+                            </li>
+
+                        </ul>
+
+                        <h3><span class="medium-text">2. Send</span></h3></br>
+                        </br>
+
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Email invoices directly or export as PDF</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Track due dates and payment history</strong></p>
+                            </li>
+                        </ul>
+                        <h3><span class="medium-text">3. Receive </span></h3></br>
+                        </br>
+
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Enable online payments via UPI, debit card, net banking</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Share QR codes for seamless checkout</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Accept cash payments and update instantly</strong></p>
+                            </li>
+                        </ul>
+                        <div style="display: flex; justify-content: center; padding: 20px; box-sizing: border-box;">
+                            <div
+                                style="border: solid 2px #4690db; box-shadow: 0px 4px 8px rgba(5, 5, 8, 0.1); padding: 10px; max-width: 90%; overflow: hidden; margin-bottom: 20px;">
+                                <img src="https://sleekbill.in/images/ITC-system.webp" alt="Input tax credit"
+                                    title="Input Tax Credit for claim tax already paid on purchase "
+                                    style="width: 100%; height: 100%; display: block; max-width: 650px;margin-top: 0px; margin-bottom: -50px;">
+
+                            </div>
+                        </div>
+                        <h2><span class="medium-text">💡 Much More Than Just Invoicing</span>
+                        </h2><br />
+                        <p>The best invoicing software for small business is not limited to generating invoices. Sleek
+                            Bill goes beyond that:</p>
+                        <h3><span class="medium-text">🔖 Quotes & Estimates</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Create well-crafted quotations</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Convert quotes to invoices in one click</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">💸 Expense Tracking</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Monitor every billable expense
+
+                                    </strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Track your business costs down to the penny</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">👨‍💼 Customer Portal</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Offer clients a secure login
+
+                                    </strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Let them approve quotes or download past invoices</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">📊 Reports & Analytics</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Get deeper insights into business performance
+
+                                    </strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Access sales reports, tax summaries, and more</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Simplifies bookkeeping by reducing manual data entry</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">🧾 Multiple Payment Options</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Accept payments via UPI, QR code, cards, and bank transfers
+
+                                    </strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Build customer trust with secure and flexible payment choices</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">✅ GST Compliance</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Auto-apply accurate GST rates
+
+                                    </strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Reduce compliance errors and file returns faster</strong></p>
+                            </li>
+                        </ul>
+
+                        <h2><span class="medium-text">🚀 The Easiest Invoicing Software You’ll Ever Use</span>
+                        </h2><br />
+                        <h3><span class="medium-text">🕒 Save Time</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Convert estimates to invoices instantly</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Manage everything in a few clicks</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">💰 Get Paid Faster</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Automate payment reminders</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Monitor paid, unpaid, and overdue invoices</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">👔 Look Professional</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Simple layout with your logo and brand identity</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Keep all records in one place to stay organized</strong></p>
+                            </li>
+                        </ul>
+
+
+
+                        <h2> <span class="medium-text">💼 Powerful Features of Sleek Bill Invoicing Software</span>
+                        </h2>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Professional Invoice Templates: </strong> Downloadable, printable, and
+                                    brandable.</p>
+                            </li>
+                            <li>
+                                <p> <strong>Online Invoice Generator: </strong>Create and manage invoices on any
+                                    device—secure and real-time.</p>
+                            </li>
+                            <li>
+                                <p> <strong>Online Receipt Maker: </strong>Acknowledge received payments within seconds.
+                                </p>
+                            </li>
+                            <li>
+                                <p> <strong>Expense Tracker: </strong>Log expenses with ease and capture key financial
+                                    data. </p>
+                            </li>
+                            <li>
+                                <p> <strong>Instant Invoicing: </strong>Reduce manual work and improve cash flow.</p>
+                            </li>
+                            <li>
+                                <p> <strong>Multi-Type Printer Support: </strong> Supports thermal and A4 printing in
+                                    both landscape and portrait formats.</p>
+                            </li>
+
+                        </ul>
+                        <section class="ewb-login-guide">
+                            <div class="ewb-guide-container">
+                                <h1 style="color: #000000; text-align: center;">📝 Steps to Create Invoices Easily</h1>
+                                <br>
+                                <h3 style="color: #000000; text-align: center;"> Step-by-Step Invoice Creating Process:
+                                </h3>
+                                <ul class="ewb-steps-list">
+                                    <li class="ewb-step-item">
+                                        <div class="ewb-step-number">1</div>
+                                        <div class="ewb-step-content">
+                                            <h3 class="ewb-step-title"> Log in or sign up on Sleek Bill</h3>
+                                            <p class="ewb-step-description">
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="ewb-step-item">
+                                        <div class="ewb-step-number">2</div>
+                                        <div class="ewb-step-content">
+                                            <h3 class="ewb-step-title"> Navigate to the Invoices section </h3>
+                                            <p class="ewb-step-description">
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="ewb-step-item">
+                                        <div class="ewb-step-number">3</div>
+                                        <div class="ewb-step-content">
+                                            <h3 class="ewb-step-title"> Click on New Invoice</h3>
+                                            <p class="ewb-step-description"></p>
+                                        </div>
+                                    </li>
+                                    <li class="ewb-step-item">
+                                        <div class="ewb-step-number">4</div>
+                                        <div class="ewb-step-content">
+                                            <h3 class="ewb-step-title">Add client name, address, and payment terms</h3>
+                                            <p class="ewb-step-description"></p>
+                                        </div>
+                                    </li>
+
+                                    <li class="ewb-step-item">
+                                        <div class="ewb-step-number">5</div>
+                                        <div class="ewb-step-content">
+                                            <h3 class="ewb-step-title">Enter item or service details, discounts, and
+                                                applicable taxes</h3>
+                                            <p class="ewb-step-description">
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="ewb-step-item">
+                                        <div class="ewb-step-number">6</div>
+                                        <div class="ewb-step-content">
+                                            <h3 class="ewb-step-title">Include terms and conditions</h3>
+                                            <p class="ewb-step-description"> </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="ewb-step-item">
+                                        <div class="ewb-step-number">7</div>
+                                        <div class="ewb-step-content">
+                                            <h3 class="ewb-step-title">Save, preview, and send</h3>
+                                            <p class="ewb-step-description"></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+
+
+                        <div class="ai-viewport-1" data-insertion-position="prepend"
+                            data-selector=".ai-insert-3-66894179" data-insertion-no-dbg=""
+                            data-code="PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTMnIHN0eWxlPSdtYXJnaW46IDhweCBhdXRvOyB0ZXh0LWFsaWduOiBjZW50ZXI7IGRpc3BsYXk6IGJsb2NrOyBjbGVhcjogYm90aDsnPgo8YSBocmVmPSJodHRwczovL215YmlsbGJvb2suaW4vY3JlYXRlLWFjY291bnQiPiA8aW1nIHNyYz0iaHR0cDovL215YmlsbGJvb2suaW4vYmxvZy93cC1jb250ZW50L3VwbG9hZHMvMjAyNC8wMi8zOTktYmFubmVyLndlYnAiIGFsdD0iYnV0dG9uLTE0LWRheXMtdHJpYWwiPiA8L2E+PC9kaXY+Cg=="
+                            data-block="3">
+                            <div class="code-block code-block-3"
+                                style="margin: 8px auto; text-align: center; display: block; clear: both;">
+                                <a href="https://app.sleekbill.in/signup"> <img
+                                        src="https://sleekbill.in/images/Sleek-Bill-Billing-Software.webp"
+                                        alt="Sleek Blll- Billing Software"> </a>
+                            </div>
+                        </div>
+
+
+                        <h2><span class="medium-text">🏢 Built for All Industries</span></h2></br>
+                        </br>
+
+                        <p> Sleek Bill is designed to support every business type:</p></br>
+
+                        <h3><span class="medium-text">🏭 Manufacturing</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Handle complex projects and inventory with ease</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Reduce delays and increase accuracy</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">🧾 Wholesale</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Manage bulk orders and faster payments</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Simplifies complex transactions</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">🛒 E-Commerce</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Auto-generate tax-compliant invoices</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Eliminate errors from manual data entry</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">🚚 Logistics</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Flexible billing options for clients</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Speeds up cash inflow</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">🛍 Retail</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Quick POS invoicing</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Improve decision-making with real-time data</strong></p>
+                            </li>
+                        </ul>
+
+                        <h3><span class="medium-text">🌾 Agriculture</span></h3>
+                        <br>
+                        <br>
+                        <ul class="custom-list">
+                            <li>
+                                <p> <strong>Simplify billing for goods sold or transported</strong></p>
+                            </li>
+                            <li>
+                                <p> <strong>Enhance accuracy and reporting for seasonal businesses</strong></p>
+                            </li>
+                        </ul>
+
+                        <div class="ai-viewport-1" data-insertion-position="prepend"
+                            data-selector=".ai-insert-3-66894179" data-insertion-no-dbg=""
+                            data-code="PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTMnIHN0eWxlPSdtYXJnaW46IDhweCBhdXRvOyB0ZXh0LWFsaWduOiBjZW50ZXI7IGRpc3BsYXk6IGJsb2NrOyBjbGVhcjogYm90aDsnPgo8YSBocmVmPSJodHRwczovL215YmlsbGJvb2suaW4vY3JlYXRlLWFjY291bnQiPiA8aW1nIHNyYz0iaHR0cDovL215YmlsbGJvb2suaW4vYmxvZy93cC1jb250ZW50L3VwbG9hZHMvMjAyNC8wMi8zOTktYmFubmVyLndlYnAiIGFsdD0iYnV0dG9uLTE0LWRheXMtdHJpYWwiPiA8L2E+PC9kaXY+Cg=="
+                            data-block="3">
+                            <div class="code-block code-block-3"
+                                style="margin: 8px auto; text-align: center; display: block; clear: both;">
+                                <a href="https://app.sleekbill.in/signup"> <img
+                                        src="https://sleekbill.in/images/ad_2.webp" alt="Sleek Blll- Billing Software">
+                                </a>
+                            </div>
+                        </div>
+
+                        <h2><span class="medium-text">🔚 Final Considerationre</span></h2>
+                        <br>
+                        <p>It's not just about sending invoices when you invest in the right invoicing software for your
+                            small business—strategies to streamline the way you work with your time, money, and
+                            customers. With Sleek Bill, you are not only acquiring software—you are gaining a reliable,
+                            easy-to-use tool that develop with your business.</p>
+                        <br>
+                        <h3><span class="medium-text">💼 Give Sleek Bill a chance today and see how efficient and
+                                professional your invoicing can be formed.</span></h3>
+
+                    </div>
+
+                    <div class="col-md-4 text-left vanish">
+
+                        <h4 style="font-size: 20px;"><span class="medium-text">GST Info</span></h4>
+
+                        <div class="siderbar-links">
+                            <ul>
+                                <li>
+                                    <a href="https://sleekbill.in/gst-export-invoice-format/"
+                                        onclick="ga('send', 'event', { eventCategory: 'sidebar', eventAction: 'click', eventLabel: 'invoice-format'});">
+                                        <img src="/images/pic_1.jpg" alt="GST Export Invoice Format" />
+                                        GST Export Invoice Format
+                                    </a>
+                                    <p>Requirements for export invoice templates in GST.</p>
+                                </li>
+
+                                <li>
+                                    <a href="https://sleekbill.in/credit-note-format/"
+                                        onclick="ga('send', 'event', { eventCategory: 'sidebar', eventAction: 'click', eventLabel: 'software-benefits'});">
+                                        <img src="/images/pic_2.jpg" alt="credit-note-format" />
+                                        Credit Note Format
+                                    </a>
+                                    <p>Why Need Credit Note?</p>
+                                </li>
+
+                                <li>
+                                    <a href="https://sleekbill.in/gst-bill-of-supply/"
+                                        onclick="ga('send', 'event', { eventCategory: 'sidebar', eventAction: 'click', eventLabel: 'supply-bill'});">
+                                        <img src="/images/pic_3.jpg" alt="GST Bill of Supply" /><br>
+                                        GST Bill of Supply
+                                    </a>
+                                    <p>Requirements for composition scheme documents.</p>
+                                </li>
+
+                                <li>
+                                    <a href="https://sleekbill.in/gst-billing-software/"
+                                        onclick="ga('send', 'event', { eventCategory: 'sidebar', eventAction: 'click', eventLabel: 'billing-software'});">
+                                        <img src="/images/pic_4.jpg" alt="GST Billing Software" /><br>
+                                        GST Billing Software
+                                    </a>
+                                    <p>GST features in online billing software.</p>
+                                </li>
+
+                                <li>
+                                    <a href="https://sleekbill.in/gst-export-invoice-format/"
+                                        onclick="ga('send', 'event', { eventCategory: 'sidebar', eventAction: 'click', eventLabel: 'billing-software'});">
+                                        <img src="https://sleekbill.in/images/export-invoice-widg.png"
+                                            alt="GST Export Invoice Format" /><br>
+                                        GST Export Invoice Format
+                                    </a>
+                                    <p>Requirements for export invoice templates in GST. </p>
+                                </li>
+
+
+                                <li>
+                                    <a href="https://sleekbill.in/gst-bill-of-supply/"
+                                        onclick="ga('send', 'event', { eventCategory: 'sidebar', eventAction: 'click', eventLabel: 'billing-software'});">
+                                        <img src="https://sleekbill.in/images/bill-of-supply-widg.png"
+                                            alt="Bill Of Supply" /><br>
+                                        GST Bill of Supply
+                                    </a>
+                                    <p>Receipt of items or services for GST Exempt. </p>
+                                </li>
+
+
+                                <li>
+                                    <a href="https://sleekbill.in/cgst-full-form-in-hindi/"
+                                        onclick="ga('send', 'event', { eventCategory: 'sidebar', eventAction: 'click', eventLabel: 'billing-software'});">
+                                        <img src="https://sleekbill.in/images/CGST-widg.png"
+                                            alt="cgst-full-form-in-hindi" /><br>
+                                        सीजीएसटी फुल-फॉर्म-हिंदी
+                                    </a>
+                                    <p>केंद्रीय वस्तु एवं सेवा कर </p>
+                                </li>
+
+                                <li>
+                                    <a href="https://sleekbill.in/receipt-voucher-gst/"
+                                        onclick="ga('send', 'event', { eventCategory: 'sidebar', eventAction: 'click', eventLabel: 'billing-software'});">
+                                        <img src="https://sleekbill.in/images/receipt-voucher-widg.png"
+                                            alt="Receipt Voucher" /><br>
+                                        Receipt Voucher </a>
+                                    <p> Receipt voucher record the receipt of payment. </p>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+
+                        <h3><span class="medium-text">Social Profiles</span></h3>
+
+                        <br />
+
+                        <div class="social-profiles">
+                            <ul>
+                                <li><a href="https://www.facebook.com/SleekBill/" target="_blank" rel="noopener"><img
+                                            src="/images/social/facebook.svg" alt="Facebook Profile" /></a></li>
+                                <li><a href="https://www.linkedin.com/company-beta/3033389/" target="_blank"
+                                        rel="noopener"><img src="/images/social/linkedin.svg"
+                                            alt="Linkedin Profile" /></a>
+                                </li>
+                                <li><a href="https://twitter.com/SleekBill" target="_blank" rel="noopener"><img
+                                            src="/images/social/twitter.svg" alt="Twitter Profile" /></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCsK-LcbI_ZknXqK-FGHvcEQ" target="_blank"
+                                        rel="noopener"><img src="/images/social/youtube.png"
+                                            alt="Youtube Profile" /></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section" style="max-width: 1200px; margin: auto;">
+            <h2 class="faq-heading">Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-toggle">
+                    <span class="faq-arrow">&#9660;</span> 1. What constitutes the most effective invoicing program
+                    suitable for small business operations?
+                </button>
+                <div class="faq-content">
+                    <p> Sleek Bill is one of the efficient and user-friendly invoicing systems developed specially for
+                        small businesses, providing robust features like GST support, online payments, and expense
+                        management.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-toggle">
+                    <span class="faq-arrow">&#9660;</span>2. Is Sleek Bill invoice totally free?</button>
+                <div class="faq-content">
+                    <p> Sleek Bill offers a lifetime free version for Android users and a free trial on the desktop
+                        version with premium features.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-toggle">
+                    <span class="faq-arrow">&#9660;</span> 3. Free invoicing system?
+                </button>
+                <div class="faq-content">
+                    <p>Yes, Sleek Bill offers necessary invoice-making tools for free, ideal for freelancers, startups,
+                        and micro-enterprises. </p>
+
+
+
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-toggle">
+                    <span class="faq-arrow">&#9660;</span>4. Is Sleek Bill free for small businesses?
+                </button>
+                <div class="faq-content">
+                    <p> Absolutely. Sleek Bill’s free version is tailored for small business owners, with all the basics
+                        you need to start invoicing professionally.</p>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            document.querySelectorAll('.faq-toggle').forEach(button => {
+                button.addEventListener('click', () => {
+                    const faqItem = button.parentElement;
+                    faqItem.classList.toggle('active');
+                });
+            });
+        </script>
+
+        <style>
+            /* FAQ Section Styles */
+            .faq-section {
+                background-color: #ffffff;
+                /* White background for the section */
+                padding: 30px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .faq-heading {
+                color: #000000;
+                /* Black text color for heading */
+                font-size: 2.5em;
+                /* Increased font size for main heading */
+                padding: 20px;
+                border-radius: 10px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .faq-item {
+                background-color: hsl(0, 2%, 76%);
+                /* Grey background for each FAQ item */
+                border-radius: 5px;
+                margin-bottom: 15px;
+                overflow: hidden;
+                /* Ensures that content does not overflow */
+            }
+
+            .faq-toggle {
+                background-color: hwb(0 98% 1%);
+                /* Blue background for toggle buttons */
+                color: #000000;
+                /* White text color for toggle buttons */
+                border: 2px, solid, #0000000;
+                border-radius: 5px;
+                padding: 15px;
+                width: 100%;
+                text-align: left;
+                font-size: 18px;
+                cursor: pointer;
+                outline: none;
+                transition: background-color 0.3s;
+                position: relative;
+                /* Position relative for arrow placement */
+            }
+
+            .faq-toggle:hover {
+                background-color: #white;
+                /* Darker blue for hover effect */
+                color: #000000;
+            }
+
+            .faq-arrow {
+                font-size: 1.2em;
+                position: absolute;
+                right: 15px;
+                /* Position arrow to the right */
+                top: 50%;
+                transform: translateY(-50%);
+                transition: transform 0.3s;
+                /* Smooth transition for arrow rotation */
+            }
+
+            .faq-content {
+                display: none;
+                /* Hidden by default */
+                padding: 15px;
+                background-color: #f9f9f9;
+                /* Light grey background for content */
+                border-top: 1px solid #ddd;
+                /* Border to separate content from button */
+            }
+
+            .faq-content p {
+                margin: 0;
+                color: #333;
+                /* Dark grey text color for answers */
+                font-size: 16px;
+            }
+
+            .faq-item.active .faq-content {
+                display: block;
+                /* Show content when active */
+            }
+
+            .faq-item.active .faq-arrow {
+                transform: rotate(180deg);
+                /* Rotate arrow when content is visible */
+            }
+        </style>
+
+        <script>
+            // Function to send the analytics event
+            function sendAnalyticsEvent() {
+                if (typeof ga === 'function') {
+                    ga('send', 'event', {
+                        eventCategory: 'header',
+                        eventAction: 'click',
+                        eventLabel: 'login'
+                    });
+                } else {
+                    console.warn('Google Analytics is not initialized.');
+                }
+            }
+        </script>
+
+        <script>
+            // Function to open the popup
+            function openPopup() {
+                document.getElementById('popup').style.display = 'flex';
+            }
+
+            // Function to close the popup
+            function closePopup() {
+                document.getElementById('popup').style.display = 'none';
+            }
+            function openPopup1() {
+                document.getElementById('popup1').style.display = 'flex';
+            }
+
+            function closePopup1() {
+                document.getElementById('popup1').style.display = 'none';
+            }
+        </script>
+
+        <script>
+            // Function to show the button after the header is scrolled out of view
+            window.addEventListener('scroll', function () {
+                const headerHeight = document.getElementById('header').offsetHeight;
+                const scrollPosition = window.scrollY;
+
+                // Show the button if the user has scrolled past the header
+                if (scrollPosition > headerHeight) {
+                    document.getElementById('scrollButton').style.display = 'inline-block';
+                } else {
+                    document.getElementById('scrollButton').style.display = 'none';
+                }
+            });
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const popup = document.getElementById('exitPopup');
+                const closePopup = document.getElementById('closePopup');
+
+                let hasShownPopup = false;
+
+                // Detect mouse movement
+                document.addEventListener('mousemove', (event) => {
+                    if (event.clientY < 50 && !hasShownPopup) {
+                        popup.style.display = 'flex';
+                        hasShownPopup = true;
+                    }
+                });
+
+                // Close the popup
+                closePopup.addEventListener('click', () => {
+                    popup.style.display = 'none';
+                });
+            });
+        </script>
+
+
+    </div>
+
+    <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
             var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
             s1.async = true;
-            s1.src = 'https://embed.tawk.to/ABCDEFGHIJKLMNOPQRSTUVWX/1uv07h3ml';
+            s1.src = 'https://embed.tawk.to/67729435af5bfec1dbe48f5f/1igbp5so1';
             s1.charset = 'UTF-8';
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
+
+
+</body>
+
+
+
+<div class="trust-features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul>
+                    <li class="text-left"><img src="/images/trust/book.svg" alt="Free training" /> Free training &amp;
+                        support</li>
+                    <li class="text-center"><img src="/images/trust/happy-customer.png"
+                            alt="60K Happy Customers Worldwide" />60K Happy Customers Worldwide</li>
+                    <li class="text-right"><img src="/images/trust/security.svg"
+                            alt="Serious about Security & Privacy" /> Serious about <a
+                            href="/security-encryption/">Security &amp; Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    a.primary-cta {
+        padding: 15px 25px !important;
+    }
+</style>
+
+<section class="custom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center" style="color:#000">
+                <h2> Maximize Your GST Savings with ITC! </h2>
+                <p> Understand how Input Tax Credit works and reduce your tax burden. Start optimizing your claims
+                    today! </p>
+
+                <br><br>
+
+                <a href="https://app.sleekbill.in/signup" class="primary-cta"
+                    onclick="ga('send', 'event', { eventCategory: 'CTA', eventAction: 'click', eventLabel: 'lead3'});">Try
+                    it today!</a> <br><br>
+                <p class="small-text ">*Free &amp; Easy - no hidden fees.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row footer-menu">
+            <div class="col-md-3">
+                <ul>
+                    <li><a href="https://sleekbill.in/pricing/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'pricing2'});">Pricing</a>
+                    </li>
+                    <li><a href="https://sleekbill.in/about/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'about'});">About
+                            Us</a></li>
+                    <li><a href="https://sleekbill.in/gst-billing-software/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'GST_BILLING'});">GST
+                            Billing Software</a></li>
+                    <li><a href="https://sleekbill.in/all-about-gstr1/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'ABOUT_GSTR'});">GSTR-1
+                            Monthly Return</a></li>
+                    <li><a href="https://sleekbill.in/gst-inventory-software/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'INVENTORY_LP'});">GST
+                            Inventory Software</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li><a href="https://sleekbill.in/security-encryption/" onClick="">Security Encryption</a></li>
+                    <li><a href="https://sleekbill.in/online-advantages/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'advantages'});">Online
+                            Billing Advantages</a></li>
+                    <li><a href="https://sleekbill.in/gst-supply-bill/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'GST_BILL'});">GST
+                            Bill of Supply</a></li>
+                    <li><a href="https://sleekbill.in/gstr-filling/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'GSTR_FILLING'});">How
+                            to File GSTR-1</a></li>
+                    <li><a href="https://sleekbill.in/kerala-flood-cess/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'Flood_Cess'});">All
+                            about Kerala Flood Cess</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li><a href="https://sleekbill.in/gst-billing-software-benefits/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'GST_Info'});">GST
+                            Info</a></li>
+                    <li><a href="https://sleekbill.in/gst-invoice-format/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'GST_Info'});">GST
+                            Invoice Format</a></li>
+                    <li><a href="https://sleekbill.in/credit-note-format/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'GST_Credit'});">GST
+                            Credit Note</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li><a href="http://sleekbill.elevio.help/en" rel="nofollow"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'FAQ2'});">FAQ</a>
+                    </li>
+                    <li><a href="https://sleekbill.in/contact/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'support'});">Support</a>
+                    </li>
+                    <li><a href="https://sleekbill.in/contact/"
+                            onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'contact2'});">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <div class="comodo-badge vanish img">
+                    <img src="https://sleekbill.in/images/comodo-badge.png" width="86" height="48" />
+                </div>
+
+                <p>Copyright &copy;
+                    <span id="currentYear"></span>
+                    <script> const d = new Date();
+                        let year = d.getFullYear();
+                        document.getElementById("currentYear").innerHTML = year;
+                    </script>
+                    SleekBill.in | V K Control System Pvt. Ltd. EULA + <a href="/terms-and-conditions/"
+                        onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'terms'});">Terms
+                        &amp; Conditions </a> <a href="https://sleekbill.in/privacy-policy/"
+                        onClick="ga('send', 'event', { eventCategory: 'footer', eventAction: 'click', eventLabel: 'privacy_policy'});">Privacy
+                        Policy</a><br />
+                    Sleek Bill Online is designed to be the best online billing and invoice software for small
+                    businesses.
+                </p>
+
+                <div class="sleek_awards vanish img">
+                    <img src="/images/expert_choice_white_small.png" width="80px">
+                    <img src="/images/expostional_customer_white_small.png" width="80px">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var loadDeferredStyles = function () {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+        webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+    else window.addEventListener('load', loadDeferredStyles);
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.slicknav.min.js"></script>
+<script src="/js/custom.js"></script>
+
+<script>
+    $(function () {
+        $('#menu').slicknav();
+    });
+</script>
+
+<script type="text/javascript"> //<![CDATA[
+    var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+    document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+    //]]>
+</script>
 </body>
 
 </html>
